@@ -1,0 +1,14 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100" height="100" fill="#f9f9f9"/>
+  
+  <!-- Letter L -->
+  <rect x="10" y="10" width="20" height="80" fill="#00bcd4"/>
+  
+  <!-- Letter C -->
+  <path d="M 40,20 A 20,20 0 0 1 40,80" fill="#00bcd4"/>
+  <path d="M 40,20 A 20,20 0 0 0 40,80" fill="none" stroke="#00bcd4" stroke-width="10"/>
+  
+  <!-- Letter O -->
+  <circle cx="75" cy="50" r="20" fill="#00bcd4"/>
+</svg>

@@ -1,0 +1,10 @@
+/* styles.css */
+
+.text-white {
+    color: white;
+  }
+  
+  .socials a img {
+    filter: invert(100%);
+  }
+  
