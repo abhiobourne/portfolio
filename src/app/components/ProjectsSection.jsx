@@ -45,7 +45,7 @@ const projectsData = [
     id: 5,
     title: "Tic-Tac-Toe game",
     description: "Game made in ReactJS",
-    image: "/images/projects/tic.jpg",
+    image: "/images/projects/tic.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/abhiobourne/TicTacToe-in-React",
     previewUrl: "https://tic-tac-toe-in-react.vercel.app/",

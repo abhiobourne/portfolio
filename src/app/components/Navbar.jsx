@@ -56,12 +56,11 @@ const Navbar = () => {
           )}
         </div>
         <div className="hidden md:block md:w-auto" id="navbar-default">
-          <ul className="font-medium flex p-4 md:p-0  rounded-lg flex-row md:space-x-8 mt-0">
+          <ul className="font-medium flex p-4 md:p-0 rounded-lg flex-row md:space-x-8 mt-0">
             {navLinks.map((link) => {
               return (
-                <li>
+                <li key={link.title}>  {/* Add the key prop here */}
                   <NavLink
-                    key={link.title}
                     title={link.title}
                     href={link.path}
                   />
