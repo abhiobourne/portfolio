@@ -35,7 +35,7 @@ const HeroSection = () => {
               Hire Me
             </button>
           </a>
-          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" download>
+          <a href="resume/resume.pdf" target="_blank" rel="noopener noreferrer" download>
             <button className="m-4 bg-gradient-to-br from-primary-500  to-secondary-500 px-1 py-1 text-white rounded-full">
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 Download CV
